@@ -1,0 +1,62 @@
+*.pyc
+.ipynb_checkpoints/
+data_modules/__pycache__/
+
+main_copy.py
+.vscode/settings.json
+eis_env/
+#*.json
+sample_data/
+Updated_sample_data
+sig_sample/outputs/
+log/
+logs/
+*.log
+*.xlsx
+*.png
+object_store/
+*.cpython
+datasets/data_files/
+datasets/theta
+
+# Report/
+# Report/BANKNIFTY/
+# Report/NIFTY/
+# Report/PDF/
+
+# Disallow the rest of the folders
+Report
+Report/BANKNIFTY
+Report/NIFTY
+Report/PDF
+
+# Include specific folders
+!Report/BANKNIFTY/empty.png
+!Report/BANKNIFTY/extra.png
+
+!Report/NIFTY/empty.png
+!Report/NIFTY/extra.png
+
+*/__pycache__/
+
+consolidated_store/
+eis-global-env/
+ta-lib/
+debug folder/
+
+real_vol.csv
+
+outputs
+
+log_bak
+
+cc_backtest_engine.egg-info/
+
+baseline_202311
+
+/sig_sample
+
+/Notebooks
+/tradelib/backtest
+/tradelib/blotter
+/tradelib/portfolio
